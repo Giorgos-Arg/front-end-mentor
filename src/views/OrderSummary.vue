@@ -2,8 +2,7 @@
   <div
     class="
       py-20
-      bg-background-pattern bg-repeat-x
-      custom-bg
+      bg-background-pattern bg-repeat-x bg-pale-blue
       font-redHatDisplay
       min-w-screen
     "
@@ -15,7 +14,7 @@
         <div class="">
           <img
             class="rounded-t-3xl"
-            src="../assets/images/illustration-hero.svg"
+            src="../assets/images/orderSummary/illustration-hero.svg"
             alt=""
           />
         </div>
@@ -35,7 +34,7 @@
             class="flex flex-row p-5 mb-8 bg-blue-50 rounded-lg items-center"
           >
             <div class="pr-5">
-              <img src="../assets/images/icon-music.svg" alt="" />
+              <img src="../assets/images/orderSummary/icon-music.svg" alt="" />
             </div>
             <div class="text-sm pr-14">
               <p class="font-bold">Annual Plan</p>
@@ -76,10 +75,5 @@
 </template>
 
 <style scoped>
-.custom-bg {
-  background-color: var(--Pale-blue);
-  background-repeat: repeat-x;
-  height: 100vh;
-  margin: 0;
-}
+@import "../css/orderSummary.css";
 </style>

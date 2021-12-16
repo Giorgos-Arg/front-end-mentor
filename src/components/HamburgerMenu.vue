@@ -95,8 +95,13 @@ const solutions = [
     icon: HomeIcon,
   },
   {
-    name: "Order Summary Component",
-    href: "OrderSummaryComponent",
+    name: "Order Summary",
+    href: "OrderSummary",
+    icon: CursorClickIcon,
+  },
+  {
+    name: "Stats Preview Card",
+    href: "StatsPreviewCard",
     icon: CursorClickIcon,
   },
 ];

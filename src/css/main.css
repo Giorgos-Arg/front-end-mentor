@@ -3,23 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --Pale-blue: #e0e8ff;
-  --Bright-blue: #3829e0;
-  --Very-pale-blue: #f5f7ff;
-  --Desaturated-blue: #7280a7;
-  --Dark-blue: #1f2f56;
-}
-
-html,
-body {
-  font-family: "Red Hat Display";
-}
-
-#app {
-  font-family: "Red Hat Display";
-}
-
 .v--modal {
   overflow-y: auto !important;
 }
@@ -30,10 +13,6 @@ body {
 
 nav .active {
   border-bottom: 1.5px solid #3182ce;
-}
-
-input {
-  cursor: pointer;
 }
 
 .container-inner {
@@ -72,42 +51,4 @@ input {
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-.enlarge {
-  transition: all 0.2s ease-in-out;
-}
-
-.enlarge:hover {
-  transform: scale(1.3);
-}
-
-tr:nth-child(even) {
-  background-color: #f9fafb;
-}
-
-tr:nth-child(od) {
-  background-color: #fff;
-}
-
-.number-input input:focus {
-  outline: none !important;
-}
-
-.number-input button:focus {
-  outline: none !important;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
-
-.top-link:active {
-  transform: scale(0.8);
 }

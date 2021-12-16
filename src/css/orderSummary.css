@@ -1,0 +1,19 @@
+:root {
+  --Pale-blue: #e0e8ff;
+  --Bright-blue: #3829e0;
+  --Very-pale-blue: #f5f7ff;
+  --Desaturated-blue: #7280a7;
+  --Dark-blue: #1f2f56;
+}
+
+html,
+body {
+  font-family: "Red Hat Display";
+}
+
+.bg-pale-blue {
+  background-color: var(--Pale-blue);
+  background-repeat: repeat-x;
+  height: 100vh;
+  margin: 0;
+}

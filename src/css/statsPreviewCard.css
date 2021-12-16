@@ -1,0 +1,18 @@
+:root {
+  --Very-dark-blue: #090b1a;
+  --Dark-desaturated-blue: #1b1938;
+}
+
+.bg-very-dark-blue {
+  background-color: var(--Very-dark-blue);
+  background-repeat: repeat-x;
+  height: 100vh;
+  margin: 0;
+}
+
+.bg-dark-desaturated-blue {
+  background-color: var(--Dark-desaturated-blue);
+  background-repeat: repeat-x;
+  height: 100vh;
+  margin: 0;
+}

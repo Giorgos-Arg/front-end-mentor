@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import OrderSummaryComponent from '/src/views/OrderSummaryComponent.vue'
+import OrderSummary from '/src/views/OrderSummary.vue'
+import StatsPreviewCard from '/src/views/StatsPreviewCard.vue'
 import Home from '/src/views/Home.vue'
 
 const routes = [
@@ -9,9 +10,14 @@ const routes = [
         component: Home,
     },
     {
-        path: '/OrderSummaryComponent',
-        name: 'OrderSummaryComponent',
-        component: OrderSummaryComponent,
+        path: '/OrderSummary',
+        name: 'OrderSummary',
+        component: OrderSummary,
+    },
+    {
+        path: '/StatsPreviewCard',
+        name: 'StatsPreviewCard',
+        component: StatsPreviewCard,
     },
 ]
 
