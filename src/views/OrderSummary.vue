@@ -1,6 +1,7 @@
 <template class="">
   <div
     class="
+      overflow-x-hidden
       py-20
       bg-background-pattern bg-repeat-x bg-pale-blue
       font-redHatDisplay
