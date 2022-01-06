@@ -104,6 +104,11 @@ const solutions = [
     href: "StatsPreviewCard",
     icon: CursorClickIcon,
   },
+  {
+    name: "3-column Preview Card",
+    href: "ThreeColumnPreviewCard",
+    icon: CursorClickIcon,
+  },
 ];
 
 export default {

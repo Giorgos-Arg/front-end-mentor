@@ -13,5 +13,4 @@ import HamburgerMenu from "./components/HamburgerMenu.vue";
 
 <style scoped>
 @import "./css/main.css";
-@import "./css/orderSummary.css";
 </style>

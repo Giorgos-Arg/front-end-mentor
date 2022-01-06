@@ -1,5 +1,4 @@
 <template class="">
-  <!-- component -->
   <div
     class="
       flex flex-col
