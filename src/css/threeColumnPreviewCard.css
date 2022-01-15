@@ -11,25 +11,20 @@
 
 .bg-bright-orange {
   background-color: var(--Bright-orange);
-  background-repeat: repeat-x;
 }
 
 .bg-dark-cyan {
   background-color: var(--Dark-cyan);
-  background-repeat: repeat-x;
 }
 
 .bg-very-dark-cyan {
   background-color: var(--Very-dark-cyan);
-  background-repeat: repeat-x;
 }
 
 .bg-transparent-white {
   background-color: var(--Transparent-white);
-  background-repeat: repeat-x;
 }
 
 .bg-very-light-gray {
   background-color: var(--Very-light-gray);
-  background-repeat: repeat-x;
 }
