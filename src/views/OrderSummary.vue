@@ -1,13 +1,6 @@
 <template class="">
   <div
-    class="
-      overflow-x-hidden
-      py-20
-      bg-background-pattern bg-repeat-x bg-pale-blue
-      font-redHatDisplay
-      justify-center
-      h-screen
-    "
+    class="overflow-x-hidden py-20 bg-bg-order-summary bg-repeat-x bg-pale-blue font-redHatDisplay justify-center h-screen"
   >
     <div class="mx-auto max-w-md justify-center">
       <div class="bg-white shadow-md border border-gray-200 rounded-3xl">
@@ -21,13 +14,7 @@
         <div class="p-10">
           <div class="pb-3">
             <h5
-              class="
-                text-gray-900
-                font-extrabold
-                text-2xl text-center
-                tracking-tight
-                mb-2
-              "
+              class="text-gray-900 font-extrabold text-2xl text-center tracking-tight mb-2"
             >
               Order Summary
             </h5>
@@ -54,19 +41,7 @@
           </div>
           <div class="flex flex-col">
             <a
-              class="
-                text-white text-center
-                font-bold
-                bg-blue-700
-                hover:bg-blue-800
-                focus:ring-4 focus:ring-blue-300
-                rounded-lg
-                text-sm
-                px-20
-                py-3
-                mb-5
-                shadow-xl shadow-gray-300
-              "
+              class="text-white text-center font-bold bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-20 py-3 mb-5 shadow-xl shadow-gray-300"
               href="#"
             >
               Proceed to Payment

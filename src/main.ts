@@ -4,6 +4,7 @@ import "./css/main.css";
 import "./css/orderSummary.css";
 import "./css/statsPreviewCard.css";
 import "./css/threeColumnPreviewCard.css";
+import "./css/profileCard.css";
 import router from "./router";
 import store from "./store";
 

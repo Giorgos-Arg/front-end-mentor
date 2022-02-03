@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import OrderSummary from "/src/views/OrderSummary.vue";
 import StatsPreviewCard from "/src/views/StatsPreviewCard.vue";
 import ThreeColumnPreviewCard from "/src/views/ThreeColumnPreviewCard.vue";
+import ProfileCard from "/src/views/ProfileCard.vue";
 import Home from "/src/views/Home.vue";
 
 const routes = [
@@ -27,6 +28,12 @@ const routes = [
     name: "ThreeColumnPreviewCard",
     component: ThreeColumnPreviewCard,
     meta: { title: "3-column preview card component" },
+  },
+  {
+    path: "/ProfileCard",
+    name: "ProfileCard",
+    component: ProfileCard,
+    meta: { title: "Profile card component" },
   },
 ];
 
